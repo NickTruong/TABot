@@ -1,4 +1,3 @@
-
 export class Parser
 {
     static parseCode(str: string) {

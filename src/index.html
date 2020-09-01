@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TABot UI</title>
+    <title>TABot GUI</title>
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <script>var exports = {"__esModule": true};</script>
@@ -11,19 +11,36 @@
   <body>
     <div class="pure-g">
       <div class="pure-u-1-2" style="background-color: #ddd;">
-        <h2>Queue</h2>
-        <table class="pure-table" id="user-table">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>User</th>
-              <th>Query</th>
-              <th>Notes</th>
-            </tr>
-          </thead>
-          <tbody id="user-table-body">
-          </tbody>
-        </table>
+        <div id="session-state-1" hidden>
+          <h2>Office Hours</h2>
+          <table class="pure-table" id="user-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>User</th>
+                <th>Query</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody id="user-table-body-1">
+            </tbody>
+          </table>
+        </div>
+        <div id="session-state-2" hidden>
+          <h2>Tutorial</h2>
+          <table class="pure-table" id="user-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>User</th>
+                <th>Query</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody id="user-table-body-2">
+            </tbody>
+          </table>
+        </div>
       </div>
       <div class="pure-u-1-2" style="background-color: #ccc;">
         <h2>Notes</h2>

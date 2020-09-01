@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn run tsc",
-    "copy": "copyfiles \"./src/*.{css,html}\" \"./build/\"",
+    "copy": "copyfiles \"./src/*.{css,html,png}\" \"./build/\"",
     "start": "electron .",
     "build-start": "yarn build && yarn copy && yarn start"
   },
