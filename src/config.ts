@@ -1,5 +1,5 @@
 export const config = {
-    "token": "NzUwMjE0MzkzMDQ3ODEwMDk4.X03RmQ.VkBc1R5wDGu17fbthyfRut9KZ50",
+    "token": "INSERT DISCORD BOT TOKEN HERE",
     "prefix": "$"
 }
 
