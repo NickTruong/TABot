@@ -1,0 +1,22 @@
+{
+  "name": "TABot",
+  "version": "1.0.0",
+  "main": "build/main.js",
+  "author": "Nick Truong",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn run tsc",
+    "copy": "copyfiles \"./src/*.{css,html}\" \"./build/\"",
+    "start": "electron .",
+    "build-start": "yarn build && yarn copy && yarn start"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.5.7",
+    "copyfiles": "^2.3.0",
+    "discord.js": "^12.3.1",
+    "electron": "^10.1.0",
+    "electron-is-dev": "^1.2.0",
+    "electron-reload": "^1.5.0",
+    "typescript": "^4.0.2"
+  }
+}
